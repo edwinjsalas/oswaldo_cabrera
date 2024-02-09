@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+
+}
+
+.hero{
+    background-color: teal;
+    background-image: url('../assets/oswaldo.jpg');
+    background-size: cover;
+    color: white;
+    background-repeat: no repeat;
+
+
+    padding-top: 400px;
+    padding-bottom: 600px;
+
+    background-position: center;
+    
+    
+}
+
+
+
+
+
+
+h1 {
+    
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+@media (min-width:600px){
+    h1 {
+    
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+}
+
