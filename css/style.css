@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0;
 
 }
@@ -17,14 +17,14 @@ body{
     background-position: center;
     
     
-}
+} */
 
 
 
 
 
 
-h1 {
+/* h1 {
     
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -48,4 +48,40 @@ h1 {
         
     }
 }
+ */
 
+
+
+ /* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background image for the entire page */
+body {
+    background-image: url('../assets/oswaldo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style for the hero section */
+.hero {
+    position: relative; /* Set positioning context for absolute positioning */
+    height: 100vh; /* Make the hero section cover the viewport height */
+}
+
+/* Style for the text */
+.container {
+    position: absolute; /* Position relative to the hero section */
+    bottom: 0; /* Position at the bottom */
+    left: 50%; /* Move to the horizontal center */
+    transform: translateX(-50%); /* Adjust for centering */
+    text-align: center; /* Center the text */
+    color: white; /* Text color */
+    font-family: 'Raleway', sans-serif; /* Use Raleway font */
+}
+
+.container h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
